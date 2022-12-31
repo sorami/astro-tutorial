@@ -2,12 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/preact': ^1.2.0
+  '@astrojs/prefetch': ^0.1.1
   '@astrojs/rss': ^2.0.0
   astro: ^1.8.0
   preact: ^10.6.5
 
 dependencies:
   '@astrojs/preact': 1.2.0_preact@10.11.3
+  '@astrojs/prefetch': 0.1.1
   '@astrojs/rss': 2.0.0
   astro: 1.8.0
   preact: 10.11.3
@@ -107,6 +109,12 @@ packages:
       preact-render-to-string: 5.2.6_preact@10.11.3
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@astrojs/prefetch/0.1.1:
+    resolution: {integrity: sha512-+XZcjivPHTo9thQshDWKnnORHJ1dE6odIzhmKHac2ptwla092eohkiJw7Y31+PYmuJkc3Jp+3AawuCvfqCnQ2Q==}
+    dependencies:
+      throttles: 1.0.1
     dev: false
 
   /@astrojs/prism/1.0.2:
@@ -3181,6 +3189,11 @@ packages:
     dependencies:
       '@pkgr/utils': 2.3.1
       tslib: 2.4.1
+    dev: false
+
+  /throttles/1.0.1:
+    resolution: {integrity: sha512-fab7Xg+zELr9KOv4fkaBoe/b3L0GMGLd0IBSCn16GoE/Qx6/OfCr1eGNyEcDU2pUA79qQfZ8kPQWlRuok4YwTw==}
+    engines: {node: '>=6'}
     dev: false
 
   /tiny-glob/0.2.9:
